@@ -1,16 +1,22 @@
 # Backend Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+uploads/*
+processed/*
+!uploads/.gitkeep
+!processed/.gitkeep
 backend/__pycache__/
 backend/*.pyc
-backend/*.pyo
-backend/*.pyd
-backend/.Python
 backend/uploads/*
 backend/processed/*
 !backend/uploads/.gitkeep
 !backend/processed/.gitkeep
-backend/venv/
-backend/env/
-backend/.env
+venv/
+env/
+.env
 
 # Flutter
 audio_editor_app/.dart_tool/
