@@ -1,0 +1,16 @@
+# Servidor web
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Procesamiento de audio
+torch==2.1.0
+noisereduce==3.0.0
+pedalboard==0.9.9
+pydub==0.25.1
+librosa==0.10.1
+soundfile==0.12.1
+numpy==1.26.3
+
+# Utilidades
+python-dotenv==1.0.0

@@ -1,0 +1,50 @@
+name: audio_editor_app
+description: App profesional de edición de audio para guitarra y voz
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI y diseño
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+
+  # Grabación y reproducción de audio
+  record: ^5.0.4
+  audioplayers: ^5.2.1
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+
+  # Comunicación con el backend
+  http: ^1.1.2
+  dio: ^5.4.0
+
+  # Visualización de forma de onda
+  flutter_sound: ^9.2.13
+
+  # Gestión de estado
+  provider: ^6.1.1
+
+  # Utilidades
+  intl: ^0.18.1
+  uuid: ^4.3.3
+  share_plus: ^7.2.1
+  file_picker: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Puedes añadir assets aquí cuando los tengas
+  # assets:
+  #   - assets/icons/
+  #   - assets/images/
